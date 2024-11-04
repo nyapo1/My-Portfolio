@@ -40,10 +40,10 @@ a:hover { color: #FF0; }
   -webkit-transition: all .3s;
   transition: all .3s;
 }
-.fixed-side-navbar:hover {
+.fixed-side-navbar {
   background: transparent;
 }
-.fixed-side-navbar:hover .nav > li > a > span {
+.fixed-side-navbar .nav > li > a > span {
   color: rgba(0, 0, 0, 0.5);
   display: block;
   background-color: #fff;
@@ -233,6 +233,13 @@ h4, .h4 {
   text-align: center;
   color: #fff;
   margin-bottom: 30px;
+}
+.service-content button{
+ 
+  padding: 1.5rem 4rem; /* Adjust padding */
+  font-size: 1.5rem; /* Adjust font size */
+  width: 50%;
+
 }
 
 .service-content .service-item .line-dec {
