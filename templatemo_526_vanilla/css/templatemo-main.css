@@ -144,7 +144,7 @@ a:hover { color: #FF0; }
 
 
 .baner-content {
-  padding-top: 2vh;
+  /* padding-top: 1vh; */
   padding-bottom: 5vh;
   text-align: center;
   background-image: url(../img/1st-section.jpg);
@@ -220,7 +220,7 @@ h4, .h4 {
 .service-content .left-text ul li {
   margin: 15px 0px;
   font-weight: 600;
-  color: #fff;
+  color: #dbcd4b;
 }
 
 .service-content .left-text .primary-button {
@@ -239,6 +239,13 @@ h4, .h4 {
   padding: 1.5rem 4rem; /* Adjust padding */
   font-size: 1.5rem; /* Adjust font size */
   width: 50%;
+
+}
+
+.li-item{
+  width: 15%;
+  font-size: 1.5rem;
+  font-weight: bold;
 
 }
 
@@ -496,9 +503,7 @@ footer em {
 
 @media (max-width: 767px){
   
-  .baner-content {
-    padding-top: 30vh;
-  }
+ 
 
   .baner-content h1 {
     font-size: 64px;
