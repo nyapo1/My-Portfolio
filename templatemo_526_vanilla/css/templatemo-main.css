@@ -73,6 +73,10 @@ a:hover { color: #FF0; }
   border: 2px solid #fff;
   border-radius: 10px;
 }
+
+.first-content{
+  padding-top: 8rem;
+}
 .nav>li {
   position: relative;
   display: block;
@@ -243,7 +247,7 @@ h4, .h4 {
 }
 
 .li-item{
-  width: 15%;
+  width: 20%;
   font-size: 1.5rem;
   font-weight: bold;
 
