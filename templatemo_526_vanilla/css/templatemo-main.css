@@ -771,3 +771,123 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+
+/* Add smooth transitions to links and buttons */
+.nav-link, .primary-button a, footer ul li a {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Add hover effects to navigation */
+.nav-link:hover {
+    transform: translateY(-2px);
+    color: #ff7d27 !important;
+}
+
+/* Animate the banner content */
+.baner-content h1 {
+    animation: fadeInDown 1s ease-out;
+}
+
+.baner-content span {
+    animation: fadeInUp 1s ease-out 0.5s;
+    animation-fill-mode: backwards;
+}
+
+.baner-content .primary-button {
+    animation: fadeIn 1s ease-out 1s;
+    animation-fill-mode: backwards;
+}
+
+/* Add hover effect to service items */
+.service-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Add animations for tabs */
+.tabs a {
+    transition: all 0.3s ease;
+}
+
+
+.tabs li a {
+  transition: all 0.3s ease;
+}
+
+.tabs li a:hover {
+  transform: translateY(-3px);
+  color: #ffc107; /* matches your warning color theme */
+}
+
+.tabs a:hover {
+    transform: scale(1.05);
+}
+
+/* Add hover effect to contact form */
+#contact input:focus, #contact textarea:focus {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+/* Define keyframe animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Improve button styles */
+.primary-button a {
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.primary-button a:hover {
+    background-color: #ff8e43;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Add scroll reveal effect for sections */
+.service-content, .projects-content, .tabs-content, .contact-content {
+    animation: fadeIn 1s ease-out;
+}
+
+/* Improve transparent header */
+.transparent-header {
+    transition: all 0.3s ease;
+}
+
+.transparent-header:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
